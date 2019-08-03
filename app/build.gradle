@@ -33,7 +33,9 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    // alternatively - just ViewModel
-    // For Kotlin use lifecycle-viewmodel-ktx
-    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    // ViewModel and LiveData
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
+    // anko
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
 }
